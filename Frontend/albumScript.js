@@ -95,7 +95,7 @@ function addTableWithAlbums(albums, parentId) {
         trackListDiv.textContent = album.trackList.join(", ");
         trackListDiv.style.display = "none";
         trackListDiv.id = "trackList-" + index;
-        
+// Her laver jeg en button til at vise og skjule tracklisten
         var toggleButton = document.createElement("button");
         toggleButton.textContent = "Show tracks";
         toggleButton.onclick = function () {
